@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../stylesheets/screens/productslist.css">
+    <title>Products | ArtStation</title>
+</head>
+
+<body class="productlist-body">
+    <div>
+        <nav class="nav-container d-flex">
+            <div class="nav-brand d-flex">
+                <button class="fa fa-bars btn btn-link nav-btn"></button>
+                <a href="#">
+                    <h2 class="nav-brand-name">ArtStation</h2>
+                </a>
+            </div>
+
+            <div class="nav-brand d-flex">
+                <input type="text" placeholder="search for product">
+                <button class="btn btn-link nav-btn">Search</button>
+            </div>
+
+
+            <div class="nav-pills d-flex">
+                <ul class="list list-no-bullet children-center">
+                    <li class="list-item">
+                        <a href="../index.html" class="btn btn-link nav-btn ">LOGIN</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./home.html"><i class="fa fa-solid fa-home"></i></a>
+                    </li>
+                    <li class="list-item nav-item">
+                        <span class="badge-icon p-rel">
+                            <i class="fa fa-solid fa-heart nav-btn"></i>
+                            <span class="badge">5</span></a>
+                        </span>
+                    </li>
+                    <li class="list-item nav-item">
+                        <span class="badge-icon p-rel">
+                            <i class="fa fa-shopping-cart nav-btn"></i>
+                            <span class="badge">5</span></a>
+                        </span>
+                    </li>
+
+                </ul>
+                <a class="fa fa-user btn btn-link nav-btn"></a>
+            </div>
+        </nav>
+        <div class="productlist-container">
+            <div class="product-grid d-grid">
+                <aside class="filter-container">
+                    <div class="filter-head d-flex">
+                        <h4>Filters</h4>
+                        <button class="btn btn-link">CLEAR</button>
+                    </div>
+                    <div class="filter-options">
+                        <h5>Price</h5>
+                        <div class="children-stacked">
+                            <label class="d-flex price-range">
+                                <span class="">500</span>
+                                <span class="">2000</span>
+                                <span class="">5000+</span>
+                            </label>
+                            <input type="range" min="0" max="5000" name="price-slider" value="2500">
+                        </div>
+                        <hr>
+                        <h5>Category</h5>
+                        <ul class="list list-no-bullet">
+                            <li class="list-item">
+                                <input type="checkbox" id="brushes" name="brushes" value="Brushes" checked>
+                                <label for="brushes">Brushes</label><br>
+                            </li>
+                            <li class="list-item">
+                                <input type="checkbox" id="colours" name="colours" value="Colours">
+                                <label for="colours">Colours</label><br>
+                            </li>
+                            <li class="list-item">
+                                <input type="checkbox" id="papers" name="papers" value="Papers">
+                                <label for="papers">Papers</label><br>
+                            </li>
+                            <li class="list-item">
+                                <input type="checkbox" id="sketch" name="sketch" value="Sketch">
+                                <label for="sketch">Sketch</label><br>
+                            </li>
+                            <li class="list-item">
+                                <input type="checkbox" id="canvas" name="canvas" value="Canvas">
+                                <label for="canvas">Canvas</label><br>
+                            </li>
+                            <li class="list-item">
+                                <input type="checkbox" id="medium" name="medium" value="Mediums">
+                                <label for="medium">Mediums</label><br>
+                            </li>
+                        </ul>
+                        <hr>
+                        <h5>Rating</h5>
+                        <ul class="list list-no-bullet">
+                            <li class="list-item">
+                                <input type="radio" id="fourplus" name="fourplus" value="fourplus" checked>
+                                <label for="fourplus">4 stars & above</label>
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" id="threeplus" name="threeplus" value="threeplus">
+                                <label for="threeplus">3 stars & above</label>
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" id="twoplus" name="twoplus" value="twoplus">
+                                <label for="twoplus">2 stars & above</label>
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" id="oneplus" name="oneplus" value="oneplus">
+                                <label for="oneplus">1 stars & above</label>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <div class="products-container">
+                    <h3>All Products</h3>
+                    <ul class="product-list list-no-bullet d-grid grid-gap">
+                        <li>
+                            <div class="card children-stacked product-card">
+                                <div class="card-media">
+                                    <img src="https://i0.wp.com/stationerie.co.in/wp-content/uploads/2021/05/1A3B627D-C304-4070-992B-CA499237F962-scaled.jpeg?resize=600%2C600&ssl=1"
+                                        alt="card-img" />
+                                    <button class="far fa-heart btn card-like"></button>
+                                </div>
+
+                                <div class="card-header">
+                                    <div class="card-title">BRUSTRO Artists ’ White Bristle Set</div>
+                                </div>
+                                <div class="card-content d-flex grid-gap">
+                                    <div>
+                                        <span class="curr-price">
+                                            ₹697
+                                        </span>
+                                        <span class="prev-price text-linethrough">
+                                            ₹349
+                                        </span>
+                                    </div>
+                                    <div class="product-rating"> <i class="fa fa-solid fa-star"></i> 3.5</div>
+                                </div>
+                                <div class="children-stacked">
+                                    <button class="fa fa-shopping-cart btn btn-secondary">Add to cart</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card children-stacked product-card">
+                                <div class="card-media">
+                                    <img src="https://i0.wp.com/stationerie.co.in/wp-content/uploads/2020/10/8D3F88DE-91BD-4B35-BAA7-38705F1DD23C.jpeg?resize=600%2C400&ssl=1"
+                                        alt="card-img" />
+                                    <button class="far fa-heart btn card-like"></button>
+                                </div>
+
+                                <div class="card-header">
+                                    <div class="card-title">BRUSTRO Artists ’ White Bristle Set</div>
+                                </div>
+                                <div class="card-content d-flex grid-gap">
+                                    <div>
+                                        <span class="curr-price">
+                                            ₹697
+                                        </span>
+                                        <span class="prev-price text-linethrough">
+                                            ₹349
+                                        </span>
+                                    </div>
+                                    <div class="product-rating"> <i class="fa fa-solid fa-star"></i> 3.5</div>
+                                </div>
+                                <div class="children-stacked grid-gap">
+                                    <button class="fa fa-shopping-cart btn btn-secondary">Add to cart</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card children-stacked product-card">
+                                <div class="card-media">
+                                    <img src="https://i0.wp.com/stationerie.co.in/wp-content/uploads/2021/05/1A3B627D-C304-4070-992B-CA499237F962-scaled.jpeg?resize=600%2C600&ssl=1"
+                                        alt="card-img" />
+                                    <button class="far fa-heart btn card-like"></button>
+                                </div>
+
+                                <div class="card-header">
+                                    <div class="card-title">BRUSTRO Artists ’ White Bristle Set</div>
+                                </div>
+                                <div class="card-content d-flex grid-gap">
+                                    <div>
+                                        <span class="curr-price">
+                                            ₹697
+                                        </span>
+                                        <span class="prev-price text-linethrough">
+                                            ₹349
+                                        </span>
+                                    </div>
+                                    <div class="product-rating"> <i class="fa fa-solid fa-star"></i> 3.5</div>
+                                </div>
+                                <div class="children-stacked grid-gap">
+                                    <button class="fa fa-shopping-cart btn btn-secondary">Add to cart</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card children-stacked product-card">
+                                <div class="card-media">
+                                    <img src="https://i0.wp.com/stationerie.co.in/wp-content/uploads/2021/05/1A3B627D-C304-4070-992B-CA499237F962-scaled.jpeg?resize=600%2C600&ssl=1"
+                                        alt="card-img" />
+                                    <button class="far fa-heart btn card-like"></button>
+                                </div>
+
+                                <div class="card-header">
+                                    <div class="card-title">BRUSTRO Artists ’ White Bristle Set</div>
+                                </div>
+                                <div class="card-content d-flex grid-gap">
+                                    <div>
+                                        <span class="curr-price">
+                                            ₹697
+                                        </span>
+                                        <span class="prev-price text-linethrough">
+                                            ₹349
+                                        </span>
+                                    </div>
+                                    <div class="product-rating"> <i class="fa fa-solid fa-star"></i> 3.5</div>
+                                </div>
+                                <div class="children-stacked grid-gap">
+                                    <button class="fa fa-shopping-cart btn btn-secondary">Add to cart</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card children-stacked product-card">
+                                <div class="card-media">
+                                    <img src="https://i0.wp.com/stationerie.co.in/wp-content/uploads/2021/05/1A3B627D-C304-4070-992B-CA499237F962-scaled.jpeg?resize=600%2C600&ssl=1"
+                                        alt="card-img" />
+                                    <button class="far fa-heart btn card-like"></button>
+                                </div>
+
+                                <div class="card-header">
+                                    <div class="card-title">BRUSTRO Artists ’ White Bristle Set</div>
+                                </div>
+                                <div class="card-content d-flex grid-gap">
+                                    <div>
+                                        <span class="curr-price">
+                                            ₹697
+                                        </span>
+                                        <span class="prev-price text-linethrough">
+                                            ₹349
+                                        </span>
+                                    </div>
+                                    <div class="product-rating"> <i class="fa fa-solid fa-star"></i> 3.5</div>
+                                </div>
+                                <div class="children-stacked grid-gap">
+                                    <button class="fa fa-shopping-cart btn btn-secondary">Add to cart</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card children-stacked product-card">
+                                <div class="card-media">
+                                    <img src="https://i0.wp.com/stationerie.co.in/wp-content/uploads/2021/05/1A3B627D-C304-4070-992B-CA499237F962-scaled.jpeg?resize=600%2C600&ssl=1"
+                                        alt="card-img" />
+                                    <button class="far fa-heart btn card-like"></button>
+                                </div>
+
+                                <div class="card-header">
+                                    <div class="card-title">BRUSTRO Artists ’ White Bristle Set</div>
+                                </div>
+                                <div class="card-content d-flex grid-gap">
+                                    <div>
+                                        <span class="curr-price">
+                                            ₹697
+                                        </span>
+                                        <span class="prev-price text-linethrough">
+                                            ₹349
+                                        </span>
+                                    </div>
+                                    <div class="product-rating"> <i class="fa fa-solid fa-star"></i> 3.5</div>
+                                </div>
+                                <div class="children-stacked grid-gap">
+                                    <button class="fa fa-shopping-cart btn btn-secondary">Add to cart</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card children-stacked product-card">
+                                <div class="card-media">
+                                    <img src="https://i0.wp.com/stationerie.co.in/wp-content/uploads/2021/05/1A3B627D-C304-4070-992B-CA499237F962-scaled.jpeg?resize=600%2C600&ssl=1"
+                                        alt="card-img" />
+                                    <button class="far fa-heart btn card-like"></button>
+                                </div>
+
+                                <div class="card-header">
+                                    <div class="card-title">BRUSTRO Artists ’ White Bristle Set</div>
+                                </div>
+                                <div class="card-content d-flex grid-gap">
+                                    <div>
+                                        <span class="curr-price">
+                                            ₹697
+                                        </span>
+                                        <span class="prev-price text-linethrough">
+                                            ₹349
+                                        </span>
+                                    </div>
+                                    <div class="product-rating"> <i class="fa fa-solid fa-star"></i> 3.5</div>
+                                </div>
+                                <div class="children-stacked grid-gap">
+                                    <button class="fa fa-shopping-cart btn btn-secondary">Add to cart</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card children-stacked product-card">
+                                <div class="card-media">
+                                    <img src="https://i0.wp.com/stationerie.co.in/wp-content/uploads/2021/05/1A3B627D-C304-4070-992B-CA499237F962-scaled.jpeg?resize=600%2C600&ssl=1"
+                                        alt="card-img" />
+                                    <button class="far fa-heart btn card-like"></button>
+                                </div>
+
+                                <div class="card-header">
+                                    <div class="card-title">BRUSTRO Artists ’ White Bristle Set</div>
+                                </div>
+                                <div class="card-content d-flex grid-gap">
+                                    <div>
+                                        <span class="curr-price">
+                                            ₹697
+                                        </span>
+                                        <span class="prev-price text-linethrough">
+                                            ₹349
+                                        </span>
+                                    </div>
+                                    <div class="product-rating"> <i class="fa fa-solid fa-star"></i> 3.5</div>
+                                </div>
+                                <div class="children-stacked grid-gap">
+                                    <button class="fa fa-shopping-cart btn btn-secondary">Add to cart</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card children-stacked product-card">
+                                <div class="card-media">
+                                    <img src="https://i0.wp.com/stationerie.co.in/wp-content/uploads/2021/05/1A3B627D-C304-4070-992B-CA499237F962-scaled.jpeg?resize=600%2C600&ssl=1"
+                                        alt="card-img" />
+                                    <button class="far fa-heart btn card-like"></button>
+                                </div>
+
+                                <div class="card-header">
+                                    <div class="card-title">BRUSTRO Artists ’ White Bristle Set</div>
+                                </div>
+                                <div class="card-content d-flex grid-gap">
+                                    <div>
+                                        <span class="curr-price">
+                                            ₹697
+                                        </span>
+                                        <span class="prev-price text-linethrough">
+                                            ₹349
+                                        </span>
+                                    </div>
+                                    <div class="product-rating"> <i class="fa fa-solid fa-star"></i> 3.5</div>
+                                </div>
+                                <div class="children-stacked grid-gap">
+                                    <button class="fa fa-shopping-cart btn btn-secondary">Add to cart</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
