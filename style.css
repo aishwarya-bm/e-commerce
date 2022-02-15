@@ -2,7 +2,6 @@
 
 .nav-container {
     background-color: var(--secondary-color);
-    margin-bottom: 3rem;
 }
 
 .signup-body{
@@ -25,6 +24,12 @@
     background-color: var(--doc-bg);
     border-radius: 1rem;
     width: 25rem;
+    margin-top: 5rem;
+}
+
+.btn-active {
+    font-weight: bolder;
+    border: 1px solid var(--white-color);
 }
 
 .create-account-link:hover{
@@ -42,13 +47,6 @@
     }
     .signup-section{
         background-color: transparent;
+        margin-top: 0;
     }
-    .nav-container {
-        margin-bottom: 0;
-    }
-}
-
-.btn-active{
-    font-weight: bolder;
-    border: 1px solid white;
 }
