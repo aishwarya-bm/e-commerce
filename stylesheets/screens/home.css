@@ -32,11 +32,11 @@
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
-.card {
+.category-container .card {
     transition: 0.5s all ease-in-out;
 }
 
-.card:hover {
+.category-container .card:hover {
     transform: scale(1.1);
 }
 
