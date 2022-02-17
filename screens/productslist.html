@@ -55,6 +55,7 @@
                 <aside class="filter-container">
                     <div class="filter-head d-flex">
                         <h4>Filters</h4>
+                        <button class="btn btn-link">APPLY</button>
                         <button class="btn btn-link">CLEAR</button>
                     </div>
                     <div class="filter-options">
@@ -67,30 +68,29 @@
                             </label>
                             <input type="range" min="0" max="5000" name="price-slider" value="2500">
                         </div>
-                        <hr>
                         <h5>Category</h5>
                         <ul class="list list-no-bullet">
-                            <li class="list-item">
+                            <li>
                                 <input type="checkbox" id="brushes" name="brushes" value="Brushes" checked>
                                 <label for="brushes">Brushes</label><br>
                             </li>
-                            <li class="list-item">
+                            <li>
                                 <input type="checkbox" id="colours" name="colours" value="Colours">
                                 <label for="colours">Colours</label><br>
                             </li>
-                            <li class="list-item">
+                            <li>
                                 <input type="checkbox" id="papers" name="papers" value="Papers">
                                 <label for="papers">Papers</label><br>
                             </li>
-                            <li class="list-item">
+                            <li>
                                 <input type="checkbox" id="sketch" name="sketch" value="Sketch">
                                 <label for="sketch">Sketch</label><br>
                             </li>
-                            <li class="list-item">
+                            <li>
                                 <input type="checkbox" id="canvas" name="canvas" value="Canvas">
                                 <label for="canvas">Canvas</label><br>
                             </li>
-                            <li class="list-item">
+                            <li>
                                 <input type="checkbox" id="medium" name="medium" value="Mediums">
                                 <label for="medium">Mediums</label><br>
                             </li>
@@ -98,19 +98,18 @@
                         <hr>
                         <h5>Rating</h5>
                         <ul class="list list-no-bullet">
-                            <li class="list-item">
+                            <li>
                                 <input type="radio" id="fourplus" name="fourplus" value="fourplus" checked>
                                 <label for="fourplus">4 stars & above</label>
                             </li>
-                            <li class="list-item">
-                                <input type="radio" id="threeplus" name="threeplus" value="threeplus">
-                                <label for="threeplus">3 stars & above</label>
+                            <input type="radio" id="threeplus" name="threeplus" value="threeplus">
+                            <label for="threeplus">3 stars & above</label>
                             </li>
-                            <li class="list-item">
+                            <li>
                                 <input type="radio" id="twoplus" name="twoplus" value="twoplus">
                                 <label for="twoplus">2 stars & above</label>
                             </li>
-                            <li class="list-item">
+                            <li>
                                 <input type="radio" id="oneplus" name="oneplus" value="oneplus">
                                 <label for="oneplus">1 stars & above</label>
                             </li>
@@ -118,11 +117,11 @@
                         <hr>
                         <h5>Sort by Price</h5>
                         <ul class="list list-no-bullet">
-                            <li class="list-item">
+                            <li>
                                 <input type="radio" id="lth" name="lth" value="lth" checked>
                                 <label for="lth">Low to high</label>
                             </li>
-                            <li class="list-item">
+                            <li>
                                 <input type="radio" id="htl" name="htl" value="htl">
                                 <label for="htl">High to low</label>
                             </li>

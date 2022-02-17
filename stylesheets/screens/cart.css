@@ -8,11 +8,7 @@
     height: calc(100vh - 5rem);
     overflow-y: scroll;
     overflow-x: hidden;
-}
-
-.product-cart {
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    justify-items: center;
+    justify-content: center;
 }
 
 .cart .card-like {
@@ -61,7 +57,10 @@
 @media only screen and (max-width:550px) {
     .cart-container {
         margin: 0;
-        flex-direction: column;
+        flex-direction: column-reverse;
         height: calc(100vh - 10rem);
+    }
+    .cart-items{
+        align-self: center;
     }
 }
