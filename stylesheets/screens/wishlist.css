@@ -35,5 +35,6 @@
 @media only screen and (max-width:550px) {
     .wishlist-container {
         margin: 0;
+        height: calc(100vh - 10rem);
     }
 }
