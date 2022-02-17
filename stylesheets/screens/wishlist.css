@@ -1,0 +1,39 @@
+.wishlist-body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.wishlist-container{
+    margin: 5rem 0 2rem 2rem;
+    height: calc(100vh - 5rem);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.product-wishlist {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    justify-items: center;
+}
+
+.wishlist .card-like {
+    color: var(--error-txt);
+    font-weight: 600;
+}
+
+.wishlist-container::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+.wishlist-container::-webkit-scrollbar-track {
+    background: var(--grey-bg);
+}
+
+.wishlist-container::-webkit-scrollbar-thumb {
+    background: var(--gold-color);
+}
+
+@media only screen and (max-width:550px) {
+    .wishlist-container {
+        margin: 0;
+    }
+}
