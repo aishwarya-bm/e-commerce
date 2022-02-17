@@ -32,9 +32,6 @@
     background: var(--gold-color);
 }
 
-.cart-items{
-    flex: 0 0 calc(100vw - 400px);
-}
 
 .cart-price {
     flex: 0 0 300px;

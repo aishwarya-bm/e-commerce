@@ -112,6 +112,9 @@
     .page-container {
         padding-right: 0;
     }
+    .card-hor{
+        width: 18rem;
+    }
     /* will remove this later */
     /* .filter-options{
         text-align: center;
