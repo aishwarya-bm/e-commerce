@@ -58,7 +58,7 @@
     padding: 0.35rem;
 }
 
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:550px) {
     .signup-body{
         background: none;
     }
