@@ -4,6 +4,10 @@
     background-color: var(--secondary-color);
 }
 
+.nav-brand-name{
+    font-family: cursive;
+}
+
 .signup-body{
     background-image: url("./assets/background.jpg");
     background-position: center center;
@@ -14,17 +18,11 @@
     height: 100%;
 }
 
-.signup-container{
-    align-items: center;
-    justify-content: center;
-}
-
 .signup-section{
     padding: 1rem;
     background-color: var(--doc-bg);
     border-radius: 1rem;
     width: 25rem;
-    margin-top: 5rem;
 }
 
 .btn-active {
