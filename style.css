@@ -3,7 +3,8 @@
 .nav-title{
         font-size: 2rem;
         font-family: cursive;
-        letter-spacing: -5px;
+        letter-spacing: -7px;
+        font-weight: bold;
 }
 
 .nav-title .letter-1{
