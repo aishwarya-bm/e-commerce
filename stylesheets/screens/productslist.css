@@ -1,11 +1,3 @@
-.productlist-body{
-    overflow-y: hidden;
-}
-
-.productlist-container{
-    margin-top: 5rem;
-}
-
 .filter-head,
 .product-card .card-content {
     justify-content: space-between;
@@ -34,8 +26,6 @@
 }
 
 .products-container{
-    height: calc(100vh - 5rem);
-    overflow-y: scroll;
     padding-right: 1rem;
 }
 
@@ -54,6 +44,7 @@
 .product-list{
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     justify-items: center;
+    padding: 1rem;
 }
 
 .price-range{
@@ -78,29 +69,27 @@
     font-size: 1.1rem;
 }
 
+.category-name{
+    margin-left: 2rem;
+}
+
 .filter-options::-webkit-scrollbar {
     width: 0.3rem;
 }
 
-.products-container::-webkit-scrollbar {
-    width: 0.5rem;
-}
-
-.filter-options::-webkit-scrollbar-track,
-.products-container::-webkit-scrollbar-track {
+.filter-options::-webkit-scrollbar-track {
     background: var(--grey-bg);
 }
 
-.filter-options::-webkit-scrollbar-thumb,
-.products-container::-webkit-scrollbar-thumb {
+.filter-options::-webkit-scrollbar-thumb {
     background: var(--gold-color);
 }
-  
-@media only screen and (max-width:550px) {
-    .productlist-body {
-        overflow-y: auto;
-    }
-    
+
+.nav-container .btn-modal-alert {
+    display: none;
+}
+
+@media only screen and (max-width:550px) {    
     .product-grid {
         grid-template-columns: 1fr;
     }
@@ -115,9 +104,20 @@
     .card-hor{
         width: 18rem;
     }
-    /* will remove this later */
-    /* .filter-options{
+    .modal-container .modal{
+        height: 70%;
+    }
+    .modal-body{
+        border: 1px solid var(--contrast-light);
+    }
+    aside{
+        display: none;
+    }
+    .nav-container .btn-modal-alert{
+        display: block;
+    }
+    .category-name{
         text-align: center;
-    } */
+    }
 }
 

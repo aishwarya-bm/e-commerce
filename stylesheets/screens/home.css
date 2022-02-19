@@ -1,11 +1,9 @@
-.nav-container{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1;
+body .nav-container{
+    background-color: var(--secondary-light);
 }
 
-.nav-container{
+.nav-container {
+    width: 100%;
     margin-bottom: 0;
 }
 
@@ -24,6 +22,7 @@
     margin: auto;
     left: 0;
     right: 0;
+    font-family: cursive;
 }
 
 .category-container {
@@ -41,14 +40,14 @@
 }
 
 @media only screen and (max-width:550px) {
-    body{
-        margin-top: 10rem;
-    }
     .category-container {
         margin: 2rem 0;
         justify-self: center;
     }
     .home-img {
         height: 65vh;
+    }
+    .home-welcome{
+        top: 30%;
     }
 }

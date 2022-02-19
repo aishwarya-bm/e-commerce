@@ -1,13 +1,5 @@
-.wishlist-body{
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
 .wishlist-container{
-    margin: 5rem 0 2rem 2rem;
-    height: calc(100vh - 5rem);
-    overflow-y: scroll;
-    overflow-x: hidden;
+    margin: 2rem;
 }
 
 .product-wishlist {
@@ -32,9 +24,3 @@
     background: var(--gold-color);
 }
 
-@media only screen and (max-width:550px) {
-    .wishlist-container {
-        margin: 0;
-        height: calc(100vh - 10rem);
-    }
-}
