@@ -1,10 +1,14 @@
 @import url(./stylesheets/main.css);
 
+body{
+    font-family: 'Roboto',
+    sans-serif;
+}
+
 .nav-title{
-        font-size: 2rem;
-        font-family: cursive;
-        /* letter-spacing: -7px; */
-        font-weight: bold;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
 }
 
 .nav-title .letter-1{

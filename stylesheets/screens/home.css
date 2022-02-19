@@ -47,4 +47,7 @@ body .nav-container{
     .home-img {
         height: 65vh;
     }
+    .home-welcome{
+        top: 30%;
+    }
 }

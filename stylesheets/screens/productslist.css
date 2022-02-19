@@ -69,6 +69,10 @@
     font-size: 1.1rem;
 }
 
+.category-name{
+    margin-left: 2rem;
+}
+
 .filter-options::-webkit-scrollbar {
     width: 0.3rem;
 }
@@ -115,12 +119,5 @@
     .category-name{
         text-align: center;
     }
-    /* .filter-container{
-        display: none;
-    } */
-    /* will remove this later */
-    /* .filter-options{
-        text-align: center;
-    } */
 }
 
