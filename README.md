@@ -1,4 +1,4 @@
-# Art Station
+# Art Station - E commerce store
 
 - A store for all your art supply needs
 
