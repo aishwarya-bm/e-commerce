@@ -81,6 +81,10 @@
     background: var(--gold-color);
 }
 
+.nav-container .btn-modal-alert {
+    display: none;
+}
+
 @media only screen and (max-width:550px) {    
     .product-grid {
         grid-template-columns: 1fr;
@@ -96,6 +100,24 @@
     .card-hor{
         width: 18rem;
     }
+    .modal-container .modal{
+        height: 70%;
+    }
+    .modal-body{
+        border: 1px solid var(--contrast-light);
+    }
+    aside{
+        display: none;
+    }
+    .nav-container .btn-modal-alert{
+        display: block;
+    }
+    .category-name{
+        text-align: center;
+    }
+    /* .filter-container{
+        display: none;
+    } */
     /* will remove this later */
     /* .filter-options{
         text-align: center;

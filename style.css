@@ -3,7 +3,7 @@
 .nav-title{
         font-size: 2rem;
         font-family: cursive;
-        letter-spacing: -7px;
+        /* letter-spacing: -7px; */
         font-weight: bold;
 }
 
@@ -91,6 +91,24 @@
 
 .card button{
     padding: 0.35rem;
+}
+
+.card-hor {
+    width: 25rem;
+}
+
+.card-hor .card-media {
+    align-self: center;
+    border-bottom: 0;
+    height: auto;
+}
+
+.card-hor .card-data {
+    padding: 0 .5rem;
+}
+
+.card-hor .product-rating {
+    align-self: baseline;
 }
 
 @media  screen and (max-width:550px) {
