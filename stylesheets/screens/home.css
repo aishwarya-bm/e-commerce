@@ -29,6 +29,7 @@ body .nav-container{
     margin: 2rem 5rem;
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    justify-items: center;
 }
 
 .category-container .card {
@@ -42,7 +43,6 @@ body .nav-container{
 @media only screen and (max-width:550px) {
     .category-container {
         margin: 2rem 0;
-        justify-self: center;
     }
     .home-img {
         height: 65vh;
