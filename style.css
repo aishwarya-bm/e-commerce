@@ -115,6 +115,12 @@ body{
     align-self: baseline;
 }
 
+@media screen and (min-width:550px) and (max-width:700px) {
+    .nav-container {
+        flex-direction: column;
+    }
+}
+
 @media  screen and (max-width:550px) {
     .signup-body{
         background: none;
@@ -127,5 +133,8 @@ body{
     .signup-section{
         background-color: transparent;
         margin-top: 0;
+    }
+    .card-hor{
+        width: 20rem;
     }
 }
